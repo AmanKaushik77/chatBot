@@ -11,7 +11,7 @@ function App() {
         <p>
           Hi, I'm Jarvis, how may I assist you today?
         </p>
-        <textarea> Type here </textarea>
+        <textarea> Enter Here </textarea>
       </header>
     </div>
   );
