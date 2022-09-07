@@ -11,11 +11,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi, I'm Jarvis, how may I assist you today?
+          Hello, my name is <strong> Jarvis </strong>, how may I assist you today?
         </p>
         <textarea> Enter Here </textarea>
       </header>
-    </div>
+    </div>  
   );
 }
 
