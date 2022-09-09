@@ -33,9 +33,9 @@ body{
     align-items: center;
     padding: .25rem;
 }
-.nav li:hover{ 
-    background-color: aqua;
-}
 .nav li.active{
     background-color: white ;
+}
+.nav li:hover{ 
+    background-color: aqua;
 }
