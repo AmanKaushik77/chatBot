@@ -10,7 +10,7 @@ export default function Home(){
           <p>
             Hello, my name is <strong> Jarvis! </strong>, How may I assist you today?
           </p>
-          <textarea> Enter Here </textarea>
+          <textarea> Type Here </textarea>
         </header>
       </div>  
     );
