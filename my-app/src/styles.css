@@ -1,9 +1,11 @@
     *{
     box-sizing: border-box;
+  
 }
 
 body{
     margin: 0;
+    background-color: black;
 }
 .JARVIS{ 
     font-size:2rem;
@@ -39,3 +41,9 @@ body{
 .nav li:hover{ 
     background-color: aqua;
 }
+.user{
+    border-radius: 18px;
+    background: #600;
+    padding: 20px, 
+    
+  }
