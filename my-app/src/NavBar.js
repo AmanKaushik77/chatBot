@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function NavBar(){
     return <nav className="nav">
         <a href="/" className="JARVIS"> J.A.R.V.I.S. </a>

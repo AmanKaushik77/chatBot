@@ -5,13 +5,14 @@
 
 body{
     margin: 0;
-    background-color: black;
+    background-color: black ;
+    
 }
 .JARVIS{ 
     font-size:2rem;
 }
 .nav{
-    background-color: black;
+    background-color: black ;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -47,3 +48,7 @@ body{
     padding: 20px, 
     
   }
+.about{
+    text-align: center;
+    color: white; 
+}
