@@ -8,6 +8,7 @@ body{
     background-color: black ;
     
 }
+
 .JARVIS{ 
     font-size:2rem;
 }
@@ -64,4 +65,30 @@ body{
   }
   
   /* Clear floats after image containers */
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-github {
+    background: orange;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
  
