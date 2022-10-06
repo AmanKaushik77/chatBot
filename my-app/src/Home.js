@@ -6,6 +6,7 @@ import logo from './logo-2.png';
 //   View,
  
 // } from 'react';
+import Typewriter from 'typewriter-effect' 
 import React from 'react';
 
 export default function Home(){
@@ -16,9 +17,17 @@ export default function Home(){
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           
-          <p>
-            Hello, my name is <strong> Jarvis! </strong>, How may I assist you today?
-          </p>
+          <Typewriter onInit={(typewriter) => {
+            typewriter
+            .typeString("Hello, my name is JARVIS.")
+            .pauseFor(2000)
+            .deleteAll()
+            .typeString("How may I assist you?")
+            
+            .start();
+          }} 
+          />
+         
           
           </header>
       </div>  
